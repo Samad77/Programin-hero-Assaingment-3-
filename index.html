@@ -296,6 +296,7 @@
             <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
 
                 <!-- Button trigger modal -->
+
 <button type="button" class="btn btn-light text-primary px-4 py-2 ms-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style="font-size: 20px; font-weight:700;">
     REGISTER
   </button>
@@ -305,11 +306,32 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          ...
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label ">Password</label>
+                <input type="password" class="form-control border" id="exampleFormControlInput1" placeholder="Enter Your Password">
+              </div>
+
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Custom</option>
+              </select>
+
+              <div class="my-3">
+              <input class="btn btn-success px-4 me-4" type="submit" value="Submit">
+
+              <input class="btn btn-success px-4" type="reset" value="reset">
+              </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
